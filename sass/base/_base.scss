@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%;
+
+  @include respone(desktop){
+    font-size: 70%;
+  }
+  @include respone(tab-land){
+    font-size: 52.25%;
+  }
+
+  @include respone(tab-port){
+    font-size: 50%;
+  }
+
+  @include respone(phone){
+    font-size: 40%;
+  }
+}
+
+body{
+  box-sizing: border-box;
+}
